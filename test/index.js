@@ -71,6 +71,7 @@ test('class names', (t) => {
 test('attributes', (t) => {
   [
     '[role="button"]',
+    '[role=\'button\']',
     'section[role="dialog"]',
     '[type="date"]',
     '[type="text"]'
