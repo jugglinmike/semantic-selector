@@ -71,7 +71,9 @@ test('class names', (t) => {
 test('attributes', (t) => {
   [
     '[role="button"]',
-    'section[role="dialog"]'
+    'section[role="dialog"]',
+    '[type="date"]',
+    '[type="text"]'
   ].forEach((selector) => assert(selector, true));
 
   [
@@ -81,7 +83,9 @@ test('attributes', (t) => {
     '[data-anything="with value"]',
     '[role]',
     '[role="unknown"]',
-    'div[role="dialog"]'
+    'div[role="dialog"]',
+    '[type]',
+    'div[type="text"]'
   ].forEach((selector) => assert(selector, false));
 
   t.end();
