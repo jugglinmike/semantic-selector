@@ -1,0 +1,18 @@
+{
+  "name": "semantic-selector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "keywords": [],
+  "author": "Mike Pennisi",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "css-selector-tokenizer": "^0.7.0"
+  }
+}
