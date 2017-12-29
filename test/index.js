@@ -72,6 +72,7 @@ test('attributes', (t) => {
   [
     '[role="button"]',
     '[role=\'button\']',
+    '[role=button]',
     'section[role="dialog"]',
     '[type="date"]',
     '[type="text"]'
@@ -84,6 +85,8 @@ test('attributes', (t) => {
     '[data-anything="with value"]',
     '[role]',
     '[role="unknown"]',
+    '[role="dialog\']',
+    '[role=\'dialog"]',
     'div[role="dialog"]',
     '[type]',
     'div[type="text"]'
